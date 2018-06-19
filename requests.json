@@ -1,0 +1,187 @@
+{
+    "Headers": {
+        "content-type": "application/json",
+        "x-dmi-sanity": "true"
+    },
+    "Body": {
+        "packageCode": "QA-SANITY-TEST-a18d870f9bd87cd4257f3c94",
+        "id": "QA-SANITY-TEST-a18d870f9bd87cd4257f3c94",
+        "tagBasedCounting": "true",
+        "pkgType": "SD_AVAILABLE",
+        "name": "sanity-test-sample-a18d870f9bd87cd4257f3c94",
+        "desc": "Used only for automation test suite",
+        "status": "ACTIVE",
+        "apps": [{
+            "appId": "com.sanity.test",
+            "datamiHost": "qin-sdgw.datami.net:8043",
+            "noSdDatamiHost": "qin-msgw.datami.net:8043",
+            "id": "2",
+            "img": "",
+            "keywords": [
+                ""
+            ],
+            "name": "sanity_app",
+            "operators": [{
+                "mccMnc": [{
+                    "mcc": "987",
+                    "mnc": "870"
+                }],
+                "status": "ACTIVE"
+            }],
+            "status": "ACTIVE",
+            "type": "android/ios"
+        }],
+        "uris": [{
+            "omsId": "43",
+            "uri": "http://s3.amazonaws.com/assets.cloudmi.datami.com/public/cloud-sanity-test",
+            "operators": [{
+                "mccMnc": [{
+                    "mcc": "987",
+                    "mnc": "870"
+                }],
+                "status": "ACTIVE"
+            }],
+            "keywords": [
+                "SANDBOX-PROXY"
+            ],
+            "datamiHost": "qin-sdgw.datami.net:8043",
+            "discoveryDomain": "www.bbc.com"
+        }],
+        "sponsor": {
+            "sponsorId": "1",
+            "sponsorName": ":",
+            "message": "Free Internet by DataMi",
+            "status": "ACTIVE",
+            "logoUri": "/admin_-2/image_repository/1418909416963/Greendatami_2.png"
+        },
+        "audience": {
+            "location": {
+                "latitude": "0",
+                "longitude": "0",
+                "radius": "0"
+            }
+        },
+        "offer": {
+            "offerId": "123",
+            "startDate": "2015-05-01T00:00:00.000Z",
+            "endDate": "2019-12-01T01:00:00.000Z",
+            "dataLimit": "2048",
+            "dataLimitPerUser": "100",
+            "topupData": "0",
+            "topupDataPerUser": "0",
+            "amount": "0",
+            "amountPerUser": "0",
+            "topupAmount": "0",
+            "topupAmountPerUser": "0",
+            "maxNoOfUsers": "10",
+            "repeats": "DAILY",
+            "alertOnExceeding": [
+
+            ],
+            "alertOnExceedingUser": [
+
+            ],
+            "pkgDataLimits": [{
+                    "limit": "100",
+                    "repeats": "NONE"
+                },
+                {
+                    "limit": "50",
+                    "repeats": "MONTHLY"
+                },
+                {
+                    "limit": "30",
+                    "repeats": "WEEKLY"
+                },
+                {
+                    "limit": "10",
+                    "repeats": "DAILY"
+                }
+            ],
+            "usrDataLimits": [{
+                    "limit": "50",
+                    "repeats": "NONE"
+                },
+                {
+                    "limit": "30",
+                    "repeats": "MONTHLY"
+                },
+                {
+                    "limit": "20",
+                    "repeats": "WEEKLY"
+                },
+                {
+                    "limit": "10",
+                    "repeats": "DAILY"
+                }
+            ],
+            "maxUsersLimits": [{
+                    "limit": "100000",
+                    "repeats": "NONE"
+                },
+                {
+                    "limit": "50000",
+                    "repeats": "MONTHLY"
+                },
+                {
+                    "limit": "30000",
+                    "repeats": "WEEKLY"
+                },
+                {
+                    "limit": "20000",
+                    "repeats": "DAILY"
+                }
+            ],
+            "abTesting": {
+                "enabled": "false",
+                "aPctg": "70",
+                "bPctg": "30",
+                "algo": "FCFS",
+                "allowModel": "ALLOW_MULT_TIMES"
+            },
+            "samplingRate": {
+                "enabled": "false",
+                "pctg": "100"
+            }
+        },
+        "operatorRuleSet": [{
+            "networkFilters": [{
+                "propName": "alias",
+                "operator": "IN_LIST",
+                "value": [
+                    "99059354"
+                ]
+            }]
+        }],
+        "env": "Int",
+        "sdOnRoaming": "false",
+        "account": {
+            "id": "ab123456-123a-12a1-a123-12345a123456",
+            "name": "sanity-test",
+            "type": "ROLE_CONTENTPARTNER"
+        },
+        "accounts": [{
+                "id": "ab123456-123a-12a1-a123-12345a123456",
+                "name": "QIN",
+                "type": "CONTENTPARTNER"
+            },
+            {
+                "id": "ab123456-123a-12a1-a123-12345a123457",
+                "name": "QIN-CP",
+                "type": "CP-ORG"
+            },
+            {
+                "id": "ab123456-123a-12a1-a123-12345a123458",
+                "name": "QIN-OP",
+                "type": "OPERATOR-ORG"
+            }
+        ],
+        "policies": {
+            "tokenValidityMins": "60",
+            "allowTokenExtension": "false",
+            "disableLimitsEnforcement": "false",
+            "allowTokenRefresh": "true"
+        },
+        "datamiHost": "qin-sdgw.datami.net:8043"
+    }
+}

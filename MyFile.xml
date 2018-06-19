@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DatamiFramework>
+    <usersGD users = "3"></usersGD>
+    <usersAacmi users = "3"></usersAacmi>
+    <usersAuth users = "1" ></usersAuth>
+    <AuthVersion version = "0"></AuthVersion>
+    <Interval GatewayPing="5"></Interval>
+    <command>
+                <name>Datami Framework Test</name>
+                <execute>sudo /Users/krishna/Desktop/DatamiFramework.py</execute>
+    </command>
+
+</DatamiFramework>

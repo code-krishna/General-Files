@@ -1,0 +1,255 @@
+{
+  "Headers": {
+    "content-type": "application/json",
+    "x-dmi-sanity": "true"
+  },
+  "Body": {
+    "pkgType": "SD_AVAILABLE",
+    "name": "Python_Suite_02",
+    "status": "ACTIVE",
+    "apps": [{
+      "appId": "com.example.urlapitestapp",
+      "operators": [{
+        "mccMnc": [{
+            "mcc": "987",
+            "mnc": "870"
+          },
+          {
+            "mcc": "405",
+            "mnc": "55"
+          },
+          {
+            "mcc": "404",
+            "mnc": "96"
+          },
+          {
+            "mcc": "405",
+            "mnc": "56"
+          },
+          {
+            "mcc": "404",
+            "mnc": "10"
+          },
+          {
+            "mcc": "404",
+            "mnc": "95"
+          },
+          {
+            "mcc": "404",
+            "mnc": "49"
+          },
+          {
+            "mcc": "404",
+            "mnc": "94"
+          },
+          {
+            "mcc": "404",
+            "mnc": "93"
+          },
+          {
+            "mcc": "404",
+            "mnc": "92"
+          },
+          {
+            "mcc": "404",
+            "mnc": "45"
+          },
+          {
+            "mcc": "404",
+            "mnc": "90"
+          },
+          {
+            "mcc": "404",
+            "mnc": "16"
+          },
+          {
+            "mcc": "404",
+            "mnc": "70"
+          },
+          {
+            "mcc": "404",
+            "mnc": "40"
+          },
+          {
+            "mcc": "987",
+            "mnc": "870"
+          },
+          {
+            "mcc": "404",
+            "mnc": "31"
+          },
+          {
+            "mcc": "405",
+            "mnc": "51"
+          },
+          {
+            "mcc": "405",
+            "mnc": "52"
+          },
+          {
+            "mcc": "405",
+            "mnc": "53"
+          },
+          {
+            "mcc": "404",
+            "mnc": "98"
+          },
+          {
+            "mcc": "405",
+            "mnc": "54"
+          },
+          {
+            "mcc": "404",
+            "mnc": "3"
+          },
+          {
+            "mcc": "404",
+            "mnc": "2"
+          }
+        ],
+        "status": "ACTIVE"
+      }],
+      "keywords": [
+        ""
+      ],
+      "status": "ACTIVE",
+      "datamiHost": "qin-sdgw.datami.net:8043",
+      "noSdDatamiHost": "qin-sdgw.datami.net:8043",
+      "id": "2",
+      "name": "LB_app",
+      "type": "android/ios",
+      "img": ""
+    }],
+    "sponsor": {
+      "status": "ACTIVE",
+      "id": "1",
+      "name": "",
+      "msg": "",
+      "image": ""
+    },
+    "audience": {
+      "location": {
+        "radius": 0.0,
+        "lat": 0.0,
+        "lgt": 0.0
+      }
+    },
+    "offer": {
+      "startDate": 1529320311000,
+      "endDate": 1531912311000,
+      "dataLimit": 0.0,
+      "dataLimitPerUser": 0.0,
+      "topupData": 0.0,
+      "topupDataPerUser": 0.0,
+      "amount": 0.0,
+      "amountPerUser": 0.0,
+      "topupAmount": 0.0,
+      "topupAmountPerUser": 0.0,
+      "maxNoOfUsers": 0,
+      "repeats": "NONE",
+      "alertOnExceeding": [
+        80
+      ],
+      "alertOnExceedingUser": [
+        90,
+        100,
+        110,
+        120
+      ],
+      "pkgFUPLimits": {
+        "weekly": 10.0,
+        "overall": 80.0,
+        "monthly": 30.0,
+        "daily": 1.0
+      },
+      "userFUPLimits": {
+        "weekly": 0.5,
+        "security": 0.0,
+        "overall": 2.0,
+        "monthly": 1.0,
+        "daily": 0.0
+      },
+      "deviceFUPLimits": {
+        "weekly": 20,
+        "overall": 40,
+        "monthly": 30,
+        "daily": 10
+      },
+      "samplingRate": {
+        "enabled": true,
+        "pctg": 100
+      },
+      "id": "1"
+    },
+    "filterEnabled": false,
+    "filterAttr": "DMI_UUID",
+    "sdOnRoaming": false,
+    "ignoreExclusionDomains": false,
+    "policies": {
+      "tokenValidityMins": 20,
+      "allowTokenExtension": false,
+      "disableLimitsEnforcement": false,
+      "allowTokenRefresh": true
+    },
+    "operatorRuleSet": [{
+      "allowedDeviceUids": "ALLOW_ALL",
+      "noDeviceIdRule": "ALLOW_ALL"
+    }],
+    "dictionary": {
+      "SD": "It’s on us! This app does not use your data. QIN",
+      "REWARD_SUCCESS": "",
+      "NO_SD": "Sorry! Toll-Free data is no longer available. Your data is now being used.",
+      "campaignId": "702",
+      "DLY_LMTEXD": "Sorry! You have exceeded the daily toll-free data limit. Your data is now being used---see you tomorrow.",
+      "MON_LMTEX": "Sorry! You have exceeded the monthly toll-free data limit. Your data is now being used---see you next month.",
+      "PKG_LMTEXD": "Sorry! The toll-free data campaign is over. Your data is now being used.",
+      "WKL_LMTEXD": "Sorry! You have exceeded the weekly toll-free data limit. Your data is now being used---see you next week.",
+      "ROAMING": "Sorry! Toll-free data is no longer available. Your data is now being used.",
+      "rewardId": "0",
+      "REWARD_NOTLISTED": "",
+      "REWARD_SERVERERROR": "",
+      "id": "0",
+      "REWARD_DUPREQUEST": "",
+      "USR_LMTEXD": "Sorry! You have exceeded the toll-free data limit. Your data is now being used.",
+      "REWARD_GENFAILURE": "",
+      "MON_LMTEXD": "Sorry! You have exceeded the monthly toll-free data limit. Your data is now being used---see you next month.",
+      "REWARD_NOTELIGIBLE": ""
+    },
+    "tmOut": 0,
+    "env": "dev",
+    "datamiHost": "",
+    "noSdDatamiHost": "",
+    "showAnalyticsMessage": "",
+    "addAndroidNotification": false,
+    "dateRecordAdded": 1529320381208,
+    "dateLastModified": 1529320381208,
+    "account": {
+      "id": "b976a9f6-2681-11e7-b7c8-121c374d7f67",
+      "name": "f-name-new",
+      "type": "ROLE_CONTENTPARTNER"
+    },
+    "accounts": [{
+        "id": "b976a9f6-2681-11e7-b7c8-121c374d7f67",
+        "name": "f-name-new",
+        "type": "CONTENTPARTNER"
+      },
+      {
+        "id": "ba44f755-2681-11e7-b7c8-121c374d7f67",
+        "name": "Default-Org-CP",
+        "type": "CP-ORG"
+      },
+      {
+        "id": "ba2d21ee-2681-11e7-b7c8-121c374d7f67",
+        "name": "Default-Org-OP",
+        "type": "OPERATOR-ORG"
+      }
+    ],
+    "tagBasedCounting": true,
+    "userName": "datami_cp",
+    "version": 1,
+    "id": "Python_Suite_03",
+    "desc": "LB_June_18",
+    "isStatic": false
+  }
+
+}

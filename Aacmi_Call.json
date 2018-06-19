@@ -1,0 +1,27 @@
+{
+  "Header": {
+    "content-type": "application/json",
+    "x-dmi-api-key": "dmi-dev-sdk-build-7b29616f0c08ec653263f3979424986b419e738f",
+    "x-dmi-sdk": "smisdk-android_1.1.0/4.4.2",
+    "x-real-ip": "244.243.0.0",
+    "x-client-ip": "244.244.0.0",
+    "x-forwarded-for": "244.244.0.0",
+    "x-dmi-service-token": "d4d7e86ba36fb82ab10241d3973deca5877f3496"
+  },
+  "Body": {
+    "auth": {
+      "appId": "com.example.urlapitestapp",
+      "accessType": "APP_PROXY",
+      "deviceId": {
+        "uid": "3c8c34a26d197249",
+        "make": "samsung",
+        "model": "s4"
+      },
+      "adInfo": {
+        "trackinEnabled": "true",
+        "googleId": "5e8e35bf-8b54-49f4-bee0-11a01a4a1d6d"
+      },
+      "packageCode": "Python_Suite_03"
+    }
+  }
+}

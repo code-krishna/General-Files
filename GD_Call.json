@@ -1,0 +1,19 @@
+{
+  "url": "https://discovery.cloudmi.datami.com/v0",
+  "Header": {
+    "x-dmi-code-path": "test",
+    "x-dmi-sdk": "slasanity-amznlinux_1.0.0/6.5.0",
+    "x-dmi-api-key": "dmi-dev-sdk-build-7b29616f0c08ec653263f3979424986b419e738f",
+    "x-dmi-service-token": "d419a39cb068a64a52937d55c4ba3d163bc4b3d2",
+    "x-real-ip": "244.243.0.0",
+    "x-client-ip": "223.227.56.103",
+    "x-dmi-app": "com.example.urlapitestapp",
+    "content-type": "application/json"
+  },
+  "Body": {
+    "op": "tej-test-opname",
+    "appId": "com.example.urlapitestapp",
+    "mccmnc": "987-870",
+    "uid": "sanity.device.uid"
+  }
+}
